@@ -1,0 +1,25 @@
+[
+  {
+    "rule": "score > 0.8",
+    "title": "3. Utilisation des concepts : Excellente maîtrise des concepts théoriques.",
+    "advice": []
+  },
+  {
+    "rule": "0.5 < score <= 0.8",
+    "title": "3. Utilisation des concepts : Correcte, mais certains concepts clés manquent.",
+    "advice": [
+      "Revoyez les concepts fondamentaux du cours",
+      "Faites des fiches par thème avec définitions et exemples",
+      "Liez systématiquement les concepts à la situation de l'entreprise"
+    ]
+  },
+  {
+    "rule": "score <= 0.5",
+    "title": "3. Utilisation des concepts : Insuffisante. Peu de concepts théoriques utilisés.",
+    "advice": [
+      "Identifiez les concepts clés pour chaque question",
+      "Apprenez les définitions précises des concepts",
+      "Montrez comment ces concepts s'appliquent au cas étudié"
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "rule": "score > 0.8",
+    "title": "1. Pertinence des réponses : Excellent! Vos réponses sont très pertinentes par rapport aux questions posées.",
+    "advice": []
+  },
+  {
+    "rule": "0.5 < score <= 0.8",
+    "title": "1. Pertinence des réponses : Correct, mais certaines réponses pourraient être plus ciblées.",
+    "advice": [
+      "Lisez attentivement chaque question avant de répondre",
+      "Identifiez les mots-clés et les verbes d'action dans la question",
+      "Structurez votre réponse autour de ces éléments clés"
+    ]
+  },
+  {
+    "rule": "score <= 0.5",
+    "title": "1. Pertinence des réponses : Insuffisant. Vos réponses s'éloignent souvent du sujet.",
+    "advice": [
+      "Relisez attentivement le cas et les questions",
+      "Soulignez les mots-clés dans chaque question",
+      "Faites un plan rapide avant de rédiger"
+    ]
+  }
+]

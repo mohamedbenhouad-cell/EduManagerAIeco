@@ -1,0 +1,25 @@
+[
+  {
+    "rule": "score > 0.8",
+    "title": "5. Clarté et style : Excellente clarté et précision dans l'expression.",
+    "advice": []
+  },
+  {
+    "rule": "0.5 < score <= 0.8",
+    "title": "5. Clarté et style : Correct, mais certaines phrases pourraient être plus claires.",
+    "advice": [
+      "Simplifiez les phrases trop longues",
+      "Évitez les constructions trop complexes",
+      "Relisez-vous à voix haute pour vérifier la fluidité"
+    ]
+  },
+  {
+    "rule": "score <= 0.5",
+    "title": "5. Clarté et style : Difficultés à exprimer clairement vos idées.",
+    "advice": [
+      "Faites des phrases courtes (15-20 mots maximum)",
+      "Une idée principale par phrase",
+      "Évitez le jargon inutile"
+    ]
+  }
+]

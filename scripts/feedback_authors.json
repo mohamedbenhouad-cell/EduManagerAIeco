@@ -1,0 +1,25 @@
+[
+  {
+    "rule": "score > 0.8",
+    "title": "4. Références académiques : Très bonne utilisation des références théoriques.",
+    "advice": []
+  },
+  {
+    "rule": "0.5 < score <= 0.8",
+    "title": "4. Références académiques : Correcte, mais certaines références manquent.",
+    "advice": [
+      "Apprenez les auteurs principaux pour chaque thème",
+      "Citez correctement les noms des auteurs",
+      "Expliquez brièvement leur contribution"
+    ]
+  },
+  {
+    "rule": "score <= 0.5",
+    "title": "4. Références académiques : Très peu de références aux auteurs.",
+    "advice": [
+      "Faites une liste des auteurs clés par thème",
+      "Apprenez leurs théories principales",
+      "Montrez comment leurs idées s'appliquent au cas"
+    ]
+  }
+]

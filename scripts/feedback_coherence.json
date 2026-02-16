@@ -1,0 +1,25 @@
+[
+  {
+    "rule": "score > 0.8",
+    "title": "2. Structure et logique : Très bonne structure et enchaînement logique des idées.",
+    "advice": []
+  },
+  {
+    "rule": "0.5 < score <= 0.8",
+    "title": "2. Structure et logique : Correct, mais certaines transitions pourraient être améliorées.",
+    "advice": [
+      "Utilisez plus de connecteurs logiques (donc, cependant, par conséquent...)",
+      "Vérifiez que chaque paragraphe développe une idée principale",
+      "Utilisez des phrases de transition entre les paragraphes"
+    ]
+  },
+  {
+    "rule": "score <= 0.5",
+    "title": "2. Structure et logique : Difficultés à structurer vos idées de manière cohérente.",
+    "advice": [
+      "Structurez vos réponses en : introduction courte, développement, conclusion",
+      "Utilisez le modèle : Idée principale -> Explication -> Exemple -> Conclusion",
+      "Faites des paragraphes courts et aérés"
+    ]
+  }
+]
