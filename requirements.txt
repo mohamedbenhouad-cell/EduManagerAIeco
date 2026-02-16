@@ -1,33 +1,24 @@
-# --- Outils Système ---
-setuptools
-wheel
-
-# --- App & UI ---
+# --- Base ---
 streamlit>=1.37.0
 streamlit-pdf-viewer
+requests
+numpy
 
-# --- NLP / ML (Versions CPU recommandées pour la mémoire) ---
+# --- NLP & ML (On force les versions CPU pour économiser la RAM) ---
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
 transformers
-torch --index-url https://download.pytorch.org/whl/cpu
 
-# --- TensorFlow (Version allégée) ---
+# --- TensorFlow (Version CPU uniquement) ---
 tensorflow-cpu==2.15.0
 tensorflow-hub
 tf-keras
 
-# --- PDF processing ---
+# --- PDF & Outils ---
 PyPDF2
 pdfplumber
-
-# --- Plotting ---
 matplotlib
 
-# --- Firebase ---
+# --- Services Externes ---
 firebase-admin
-
-# --- Email ---
 sib-api-v3-sdk
-
-# --- HTTP & numeric ---
-requests
-numpy
