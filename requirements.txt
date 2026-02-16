@@ -1,34 +1,33 @@
-# --- Outils Système (INDISPENSABLE pour corriger l'erreur pkg_resources) ---
-setuptools==69.5.1
-wheel==0.43.0
+# --- Outils Système ---
+setuptools
+wheel
 
 # --- App & UI ---
-streamlit==1.37.0
+streamlit>=1.37.0
+streamlit-pdf-viewer
 
-# --- NLP / ML ---
-transformers>=4.41.0
-torch>=2.2.0
+# --- NLP / ML (Versions CPU recommandées pour la mémoire) ---
+transformers
+torch --index-url https://download.pytorch.org/whl/cpu
 
-# --- TensorFlow (Version fixée pour la stabilité) ---
-# On impose la version 2.15 pour éviter les conflits avec tensorflow-hub
-tensorflow==2.15.0
-tensorflow-hub==0.16.1
+# --- TensorFlow (Version allégée) ---
+tensorflow-cpu==2.15.0
+tensorflow-hub
 tf-keras
 
 # --- PDF processing ---
-PyPDF2>=3.0.0
-pdfplumber>=0.11.0
+PyPDF2
+pdfplumber
 
 # --- Plotting ---
-matplotlib>=3.7.0
+matplotlib
 
-# --- Firebase (Auth + Firestore) ---
-firebase-admin>=6.5.0
+# --- Firebase ---
+firebase-admin
 
 # --- Email ---
-sib-api-v3-sdk>=7.6.0
+sib-api-v3-sdk
 
 # --- HTTP & numeric ---
-requests>=2.31.0
-numpy>=1.23.0
-streamlit-pdf-viewer
+requests
+numpy
